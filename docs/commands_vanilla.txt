@@ -1,0 +1,60 @@
+<cid> Character ID
+<pv> PV value, +1 per connection
+<char> Character Name
+<name> OOC Name
+<mes> Sent Message
+<track> Music Track
+<emo> emotion name
+<pos> Court postion
+<hd> First HDD serial number
+
+Client->Server
+HI#<hd>#%
+askchaa#% get array sizes
+askchar2#% get first char list
+CC#<pv>#<cid>#<hd>#%
+CH#<cid>#% Ping
+CT#<name>#<mes>#% OOC chat
+MS#chat#<emo>#<char>#<emo>#<mes>#<pos>#<sfx>#<zoom>#<cid>#1#0#<evi>#<cid>#<bling>#<color>#%% main chat
+MS#chat#deskslam#Phoenix#h#test#def#sfx-desk#1#2#4#0#0#2#0#0#%
+
+MC#<track>#<cid>#% Play music
+RT#[testimony1/testimony2]#% Witness testimony/Cross examination
+HP#<bar>#<value>#% set bar number <bar> to <value>
+AN#<list number>#% request chars
+AE#<evidence number#% request evidence
+AM#<list number>#% request music
+DC#<cid>#% disconnect
+CA#% ip list
+opKICK#<char>#% kick
+opBAN#<ip>#% ban
+opMUTE#<char>#% mute
+opUNMUTE#<char>#% unmute
+ZZ#% call mod
+VERSION#% get version (serverD only)
+
+Server->Client
+ID#<pv>#<scene>#% hi
+PN#<online players>#<slots>#% playercount
+SI#<characters>#<evidence>#<tracks>#% array sizes
+CI#<cid>#<char>&<char description>&0&0&&0&#1#<char>&<char description>&0&0&&0&#...9#<char>&<char description>&0&0&&0&#% Load chars in packs from *0-*9
+EM#<track id>#<track>#<track id>#<track>#...<track id>#<track>##% Load music in packs from *0-*9
+Charscheck#[-1 taken/0 free]#[-1 taken/0 free]#...#% Already chosen characters
+BN#<background>#% Use this background
+OPPASS#<encrypted oppass>#% op pass (obsolete)
+MM#<musicmode#% set musicmode
+DONE#% show character roster
+checkconnection#% ping
+PV#<pv>#CID#<cid>#% ok you can have this char
+KK#<cid>#% kick
+KB#<cid>#% ban
+MU#<cid>#% mute, -1 = everybody
+UM#<cid>#% unmute, -1 = everybody
+BD#% you already are banned
+ZZ#<ip>#% mod call
+CT#<name>#<mes>#% OOC chat
+MS#chat#<emo>#<char>#<emo>#<mes>#<pos>#1#0#<cid>#1#0#0#<cid>#0#<color>#%% Master chat
+MC#<track>#<cid>#% Play music
+RT#[testimony1/testimony2]#% Witness testimony/Cross examination
+HP#<bar>#<value>#% set bar number <bar> to <value>
+FI#<mes>% send debug message
