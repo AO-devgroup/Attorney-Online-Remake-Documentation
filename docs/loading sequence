@@ -1,0 +1,15 @@
+Server <-> client loading sequence
+
+Client: <connection initiated>
+Server: HI#<server software>#<server version>#%
+Client: HI#<client software>#<client version>#%
+Server: PN#<connected players>#<max players>#%
+
+-- at this point the handshake is considered successful and the connection is initiated --
+
+Client: (ask for chars)
+Client: (ask for music)
+Client: (ask for bg)
+
+Server:
+
