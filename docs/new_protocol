@@ -21,6 +21,9 @@ AC#character#mod#%, where mod is 0, 1 or 2.
 1 being "no this char is taken"
 2 being "wrong password"
 
+MS#....#% = see below, SENDING MESSAGES
+MC#songname.mp3#% = songname.mp3 is playing now
+
 
 Connection sequence:
 
@@ -52,7 +55,27 @@ Server: AC#character#mod#%
 SENDING MESSAGES
 okay.. this is the big bomb
 
-Client: MS#message#character#side#emote#emote_modifier#objection_modifier#realization#text_color#%
+Client: MS#message#character#side#pre_emote#emote#emote_modifier#objection_modifier#realization#text_color#%
+
+side = wit, def, pro, jud, hld, hlp
+emote_modifier = 
+0: do not play preanimation or sound effect unless objection_modifier is not 0
+1: play preanimation and sound effect
+5: ZOOM - hide desk and set background as speedlines, direction based on side
+
+objection_modifier = 0: nothing, 1: hold it, 2: objection, 3: take that
+
+realization = 0: no realization, 1: realization
+
+text_color = 0: white, 1: blue, 2: green, 3: orange, 4: red
+
+OTHER COMMANDS
+
+HP#1/2#0-5#% = changes the HP bars, where 1 is defense bar and 2 is prosecution bar and 0-5 is the amount
+
+ZZ#% = call mod
+
+
 
 
 
