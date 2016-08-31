@@ -1,0 +1,59 @@
+client->server
+RC#% = request character list
+RM#% = request music list
+RB#% = request background
+
+AC#character#password#% = ask server for character, password can be blank
+
+MS#....#% = send chat message(see below under SENDING MESSAGES)
+MC#terriblesong.mp3#% = change song
+
+
+server->client
+RC#character&description&taken&passworded#% = here you go, the charlist, 
+where taken and passworded can be 0 or 1, 0 is free/not passworded and 1 is taken/passworded
+
+RM#<formatted musiclist>#% = here you go, the musiclist
+RB#background#% = here you go, background
+
+AC#character#mod#%, where mod is 0, 1 or 2. 
+0 being "yes you can have this char",
+1 being "no this char is taken"
+2 being "wrong password"
+
+
+Connection sequence:
+
+[CLIENT CONNECTS TO SERVER]
+Server: HI#software#version#%
+Client: HI#software#version#%
+Server: PN#playersonline#maxplayers#%
+
+HANDSHAKE SUCCESSFUL
+
+START LOADING
+
+Client: RC#%RM#%RB#%
+- these can be sent in any order -
+Server: RC#character&description&taken&passworded#... Ncharacter&Ndescription&Ntaken&Npassworded#%
+Server: RM#terriblesong.mp3#worsesong.mp3#........#goodsong.mp3#%
+Server: RB#background#%
+-                                -
+
+(Server: DONE#%)
+
+DONE LOADING
+
+PICKING CHARACTER
+
+Client: AC#character#password#%
+Server: AC#character#mod#%
+
+SENDING MESSAGES
+okay.. this is the big bomb
+
+Client: MS#message#character#side#emote#emote_modifier#objection_modifier#realization#text_color#%
+
+
+
+
