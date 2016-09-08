@@ -61,7 +61,7 @@ Server: DONE#% - says ok no problem and boots client to character select
 SENDING MESSAGES
 okay.. this is the big bomb
 
-Client: MS#message#character#side#sfx#pre_emote#emote#emote_modifier#objection_modifier#realization#text_color#%
+Client: MS#message#character#side#sfx#pre_emote#emote#emote_modifier#objection_modifier#realization#text_color#evidence#%
 
 side = wit, def, pro, jud, hld, hlp
 sfx = sound effect(.wav) that should be played
@@ -69,6 +69,8 @@ emote_modifier =
 0: do not play preanimation or sound effect unless objection_modifier is not 0
 1: play preanimation and sound effect
 5: ZOOM - hide desk and set background as speedlines, direction based on side
+
+evidence = evidence id, a number
 
 SENDING OOC MESSAGES
 
