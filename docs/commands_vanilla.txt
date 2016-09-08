@@ -15,7 +15,7 @@ askchar2#% get first char list
 CC#<pv>#<cid>#<hd>#%
 CH#<cid>#% Ping
 CT#<name>#<mes>#% OOC chat
-MS#chat#<emo>#<char>#<emo>#<mes>#<pos>#<sfx>#<zoom>#<cid>#1#0#<evi>#<cid>#<bling>#<color>#%% main chat
+MS#chat#<emo>#<char>#<emo>#<mes>#<pos>#<sfx>#<zoom>#<cid>#<animdelay>#<sfxdelay>#<evi>#<cid>#<bling>#<color>#%% main chat
 MS#chat#deskslam#Phoenix#h#test#def#sfx-desk#1#2#4#0#0#2#0#0#%
 
 MC#<track>#<cid>#% Play music
