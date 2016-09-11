@@ -59,7 +59,7 @@ mod being 0, 1 or 2
 
 LEAVING CHARACTER
 
-Client: FC#character#% - okay i am done using this char
+Client: FC#% - okay i am done using this char
 Server: DONE#% - says ok no problem and boots client to character select
 (the server can force the client to pick a new character by just sending DONE#%)
 
