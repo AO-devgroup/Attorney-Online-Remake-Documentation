@@ -43,14 +43,19 @@ Server: RM#terriblesong.mp3#worsesong.mp3#........#goodsong.mp3#%
 Server: RB#background#%
 -                                -
 
-(Server: DONE#%)
+Server: DONE#%
 
 DONE LOADING
 
 PICKING CHARACTER
 
 Client: AC#character#password#%
-Server: AC#character#mod#%
+Server: OC#character#mod#%
+
+mod being 0, 1 or 2
+0 = yes you can have this character
+1 = no this character is taken
+2 = wrong password
 
 LEAVING CHARACTER
 
