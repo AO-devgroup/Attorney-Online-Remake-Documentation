@@ -10,16 +10,12 @@ MC#terriblesong.mp3#% = change song
 
 
 server->client
-RC#character&description&taken&passworded#% = here you go, the charlist, 
+SC#character&description&taken&passworded#% = here you go, the charlist, 
 where taken and passworded can be 0 or 1, 0 is free/not passworded and 1 is taken/passworded
+SM#<formatted musiclist>#% = here you go, the musiclist
+SB#background#% = here you go, background
 
-RM#<formatted musiclist>#% = here you go, the musiclist
-RB#background#% = here you go, background
-
-AC#character#mod#%, where mod is 0, 1 or 2. 
-0 being "yes you can have this char",
-1 being "no this char is taken"
-2 being "wrong password"
+OC#character#mod#% - see PICKING CHARACTER
 
 MS#....#% = see below, SENDING MESSAGES
 MC#songname.mp3#% = songname.mp3 is playing now
@@ -38,9 +34,9 @@ START LOADING
 
 Client: RC#%RM#%RB#%
 - these can be sent in any order -
-Server: RC#character&description&taken&passworded#... Ncharacter&Ndescription&Ntaken&Npassworded#%
-Server: RM#terriblesong.mp3#worsesong.mp3#........#goodsong.mp3#%
-Server: RB#background#%
+Server: SC#character&description&taken&passworded#... Ncharacter&Ndescription&Ntaken&Npassworded#%
+Server: SM#terriblesong.mp3#worsesong.mp3#........#goodsong.mp3#%
+Server: SB#background#%
 -                                -
 
 Server: DONE#%
