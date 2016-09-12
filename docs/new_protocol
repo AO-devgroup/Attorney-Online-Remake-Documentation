@@ -66,7 +66,7 @@ okay.. this is the big bomb
 //Client: MS#message#character#side#sfx#pre_emote#emote#emote_modifier#objection_modifier#realization#text_color#evidence#%
 
 //NEW FORMAT
-Client: MS#chat#<pre-emote>#<char>#<emote>#<message>#<side>#<sfx-name>#<emote_modifier>#<objection_modifier>#<realization>#<text_color>#<evidence>#%
+Client: MS#chat#<pre-emote>#<char>#<emote>#<message>#<side>#<sfx-name>#<emote_modifier>#<objection_modifier>#<realization>#<text_color>#<evidence>#<cid>#%
 
 side = wit, def, pro, jud, hld, hlp
 emote_modifier = 0, 1 or 5, where 0 is no preanim, 1 is and 5 is zoom
