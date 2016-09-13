@@ -50,9 +50,9 @@ Server: OC#character#mod#%
 
 mod being 0, 1, 2 or 3
 0 = yes you can have this character
-1 = yes you can have this character and your a mod now!!!!!
-2 = no this character is taken
-3 = wrong password
+1 = no this character is taken
+2 = wrong password
+3 = yes you can have this character and your a mod now!!!!!
 
 LEAVING CHARACTER
 
