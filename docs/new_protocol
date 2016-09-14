@@ -123,7 +123,9 @@ OTHER COMMANDS
 RT#testimony1#% - witness testimony
 RT#testimony2#% - Cross examination
 
-HP#<bar>#<value>#% set bar number <bar> to <value>
+HP#<bar>#<value>#%
+
+where <bar> is either def or pro and <value> is a number between 0 and 10
 
 ZZ#% = call mod
 
