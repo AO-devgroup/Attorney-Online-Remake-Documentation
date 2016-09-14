@@ -3,7 +3,7 @@ RC#% = request character list
 RM#% = request music list
 RB#% = request background
 
-AC#character#password#% = ask server for character, password can be blank
+UC#character#password#% = ask server for character, password can be blank
 
 MS#....#% = send chat message(see below under SENDING MESSAGES)
 MC#terriblesong.mp3#% = change song
