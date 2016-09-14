@@ -89,11 +89,11 @@ CT#name#message#%
 
 OTHER COMMANDS
 
-HP#1/2#0-5#% = changes the HP bars, where 1 is defense bar and 2 is prosecution bar and 0-5 is the amount
 
-WT#% - witness testimony
+RT#testimony1#% - witness testimony
+RT#testimony2#% - Cross examination
 
-CE#% - cross examination
+HP#<bar>#<value>#% set bar number <bar> to <value>
 
 ZZ#% = call mod
 
