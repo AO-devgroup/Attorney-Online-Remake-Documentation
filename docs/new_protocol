@@ -120,12 +120,24 @@ text_color = 0: white, 1: blue, 2: green, 3: orange, 4: red
 
 *: were not actually sure if this is animdelay or what it is. anyways, its obsolete in ao2
 
+ENTERING AN AREA
+
+Client: AA#area id#password#%
+Server: OA#area id#modifier#%
+
+where modifier is 0 or 1, 0 being yeah u can enter and 1 being lol wrong password
+
+TA#n#n2...#%, where n is amount of people in each area
+
 SENDING OOC MESSAGES
 
 CT#name#message#%
 
 OTHER COMMANDS
 
+keepalive check
+Server: PING#%
+Client: PONG#%
 
 RT#testimony1#% - witness testimony
 RT#testimony2#% - Cross examination
