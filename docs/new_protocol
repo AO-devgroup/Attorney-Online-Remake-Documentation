@@ -1,7 +1,7 @@
 client->server
 RC#% = request character list
 RM#% = request music list
-RB#% = request background
+RA#% = request area list
 
 UC#character#password#% = ask server for character, password can be blank
 
@@ -32,12 +32,13 @@ HANDSHAKE SUCCESSFUL
 
 START LOADING
 
-Client: RC#%RM#%RB#%
+Client: RC#%RM#%RA#%
 - these can be sent in any order -
 Server: SC#character&description&taken&passworded#... Ncharacter&Ndescription&Ntaken&Npassworded#%
 Server: TC#char1mod#char2mod#char3mod#%
 Server: SM#terriblesong.mp3#worsesong.mp3#........#goodsong.mp3#%
-Server: SB#the worst area&gs4&0#%
+Server: SA#the worst area&gs4&0#%
+Server: TA#13#%
 -                                -
 
 Server: DONE#%
