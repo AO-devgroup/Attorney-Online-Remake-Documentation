@@ -71,39 +71,23 @@ Server: DONE#% - says ok no problem and boots client to character select
 SENDING MESSAGES
 okay.. this is the big bomb
 
-//VANILLA FORMAT
+//FORMAT
 Client:
-MS#chat#
-<pre-emote>#
-<char>#
-<emote>#
-<message>#
-<side>#
-<sfx-name>#
-<emote_modifier>#
-<cid>#
-<animdelay>*#
-<objection_modifier>#
-<evidence>#
-<cid>#
-<realization>#
-<text_color>#%
-
-//NEW FORMAT
-Client:
-MS#chat#
-<pre-emote>#
-<char>#
-<emote>#
-<message>#
-<side>#
-<sfx-name>#
-<emote_modifier>#
-<objection_modifier>#
-<realization>#
-<text_color>#
-<evidence>#
-<cid>#%
+0MS#1chat#
+2<pre-emote>#
+3<char>#
+4<emote>#
+5<message>#
+6<side>#
+7<sfx-name>#
+8<emote_modifier>#
+9<cid>#
+10<sfx_delay>#
+11<objection_modifier>#
+12<evidence>#
+13<placeholder>#
+14<realization>#
+15<text_color>#%
 
 side = wit, def, pro, jud, hld, hlp
 emote_modifier = 0, 1 or 5, where 0 is no preanim, 1 is and 5 is zoom
