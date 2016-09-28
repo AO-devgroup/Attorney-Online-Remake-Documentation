@@ -131,6 +131,14 @@ HP#<bar>#<value>#%
 
 where <bar> is either def or pro and <value> is a number between 0 and 10
 
+server->client
+
+KK#<cid>#% kick
+KB#<cid>#% ban
+MU#<cid>#% mute, -1 = everybody
+UM#<cid>#% unmute, -1 = everybody
+BD#% you already are banned
+
 ZZ#% = call mod
 
 
