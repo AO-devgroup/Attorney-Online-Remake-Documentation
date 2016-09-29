@@ -52,6 +52,7 @@ MU#<cid>#% mute, -1 = everybody
 UM#<cid>#% unmute, -1 = everybody
 BD#% you already are banned
 ZZ#<ip>#% mod call
+IL#<ip>|<charname>|<cid>|*<ip>|<char....|*#% IP list
 CT#<name>#<mes>#% OOC chat
 MS#chat#<emo>#<char>#<emo>#<mes>#<pos>#1#0#<cid>#1#0#0#<cid>#0#<color>#%% Master chat
 MC#<track>#<cid>#% Play music
