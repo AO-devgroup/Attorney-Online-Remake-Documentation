@@ -148,6 +148,10 @@ ZZ#% = call mod, from cl
 to mods:
 ZZ#<ip>#%
 
+logging in:
+client sends /login <modpass>
+if correct, server sends MK#%
+
 
 
 
