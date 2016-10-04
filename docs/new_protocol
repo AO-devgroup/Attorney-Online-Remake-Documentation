@@ -101,7 +101,12 @@ objection_modifier = 0: nothing, 1: hold it, 2: objection, 3: take that
 
 realization = 0: no realization, 1: realization
 
-text_color = 0: white, 1: blue, 2: green, 3: orange, 4: red
+text_color = 
+0: white
+1: green
+2: red
+3: orange
+4: blue
 
 *: were not actually sure if this is animdelay or what it is. anyways, its obsolete in ao2
 
