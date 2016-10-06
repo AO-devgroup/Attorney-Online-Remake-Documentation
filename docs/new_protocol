@@ -67,6 +67,7 @@ LEAVING CHARACTER
 Client: FC#% - okay i am done using this char
 Server: DONE#% - says ok no problem and boots client to character select
 (the server can force the client to pick a new character by just sending DONE#%)
+Server: TC#% - updates the taken chars images in the client
 
 SENDING MESSAGES
 okay.. this is the big bomb
