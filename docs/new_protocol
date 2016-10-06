@@ -53,7 +53,7 @@ for TC#:
 
 PICKING CHARACTER
 
-Client: AC#character#password#%
+Client: UC#character#password#%
 Server: OC#character#mod#%
 
 mod being 0, 1, 2 or 3
@@ -93,6 +93,9 @@ side = wit, def, pro, jud, hld, hlp
 emote_modifier = 0, 1 or 5, where 0 is no preanim, 1 is and 5 is zoom
 0: do not play preanimation or sound effect unless objection_modifier is not 0
 1: play preanimation and sound effect
+2: no preanimation and no desk
+3: preanimation and no desk
+4: preanimation and ZOOM(preanimation has desk)
 5: ZOOM - hide desk and set background as speedlines, direction based on side
 
 evidence = evidence id, a number
