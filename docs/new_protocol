@@ -13,7 +13,7 @@ server->client
 SC#character&description#% = here you go, the charlist, 
 where taken and passworded can be 0 or 1, 0 is free/not passworded and 1 is taken/passworded
 SM#<formatted musiclist>#% = here you go, the musiclist
-SB#<area name>&<area background>&<passworded>#% = passworded being 0 or 1. 0 is no password, 1 is.
+SA#<area name>&<area background>&<passworded>#% = passworded being 0 or 1. 0 is no password, 1 is.
 
 OC#character#mod#% - see PICKING CHARACTER
 
